@@ -23,11 +23,12 @@ if ($displayAddressEdit) {
 </div>
 <div class="floatingBox important forward"><?php echo TEXT_CHOOSE_SHIPPING_DESTINATION; ?></div>
 
-<div class="clearBoth"><?php echo sprintf(SHIP_TO_MULTIPLE_ADDRESSES_LINK, $anchor_text); ?></div>
+<div class="multiLink"><?php echo sprintf(SHIP_TO_MULTIPLE_ADDRESSES_LINK, $anchor_text); ?></div>
+<div class="clearBoth"><br></div>
 <?php
 } elseif ($multiple_shipping_active) {
 ?>
 <h3><?php echo SHIPPING_TO_MULTIPLE_ADDRESSES; ?></h3>
-<div><?php echo sprintf(SHIP_TO_MULTIPLE_ADDRESSES_ACTIVE, $multiple_shipping_address_count, $anchor_text); ?></div>
+<div class="multiLink"><?php echo sprintf(SHIP_TO_MULTIPLE_ADDRESSES_ACTIVE, $multiple_shipping_address_count, $anchor_text); ?></div>
 <?php
 }
