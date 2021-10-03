@@ -7,9 +7,9 @@
 define('SHIP_TO_MULTIPLE_ADDRESSES', 'Ship to multiple addresses');
 define('SHIPPING_TO_MULTIPLE_ADDRESSES', 'Shipping to multiple addresses, see below.');
 
-define('SHIP_TO_MULTIPLE_ADDRESSES_LINK', 'Shipping to multiple addresses?  Click %s to identify which products ship to what address.');
+define('SHIP_TO_MULTIPLE_ADDRESSES_LINK', 'If you are shipping to one address, now is the time to make sure the address above is correct.<br><br>Shipping to multiple addresses?  Click %s to identify which products ship to what address.');
 define('SHIP_TO_MULTIPLE_ADDRESSES_ACTIVE', 'Currently shipping to %1$u addresses.  Click %2$s to make any changes.');
-    define('SHIP_TO_MULTIPLE_HERE', 'here');    //-Used as the anchor text for the links (%s), inserted above.
+    define('SHIP_TO_MULTIPLE_HERE', '* HERE *');    //-Used as the anchor text for the links (%s), inserted above.
 
 define('TEXT_SHIPPING_TO', 'Shipping to: ');
 
